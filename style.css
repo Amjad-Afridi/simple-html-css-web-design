@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.hero-section{
+    background-image: url("https://i.tribune.com.pk/media/images/1949487-image-1555098841/1949487-image-1555098841.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(7, 149, 57);
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.left{
+    font-size: large;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+nav ul li:hover {
+    color:aqua;
+    font-weight: bold;
+    transition: 1s ;
+
+}
